@@ -1,0 +1,79 @@
+/* src/pages/Contact.css */
+
+.contact-container {
+  position: relative;
+  background-image: url('../bg6.jpg'); /* Ensure the image path is correct */
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  color: #fff; /* White text color for contrast */
+  min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-container h1{
+  color: #fff !important;
+}
+.contact-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Darker semi-transparent overlay for better text contrast */
+  backdrop-filter: blur(10px); /* Slightly stronger blur effect */
+  z-index: 1;
+}
+
+.contact-content {
+  position: relative;
+  z-index: 2;
+  background: rgba(73, 111, 87, 0.9); /* Semi-transparent white background for form */
+  padding: 30px; /* Increased padding for better spacing */
+  border-radius: 40px;
+  max-width: 600px; /* Increased maximum width */
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Shadow for better visibility */
+}
+
+.contact-content h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+  color: #020703; /* Darker text color for headers */
+}
+
+.contact-details {
+  margin-top: 20px;
+}
+
+.contact-details h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-style: oblique;
+  color: #ece8f3; /* Darker text color for headers */
+}
+
+.contact-details p {
+  margin: 5px 0;
+  color: #2bf70c; /* Darker text color for paragraphs */
+}
+
+.map {
+  margin-top: 20px;
+}
+
+.map iframe {
+  border: 0;
+  border-radius: 8px;
+  width: 100%; /* Full width for responsiveness */
+  height: 300px; /* Adjust height as needed */
+}
+
+@media (max-width: 768px) {
+  .map iframe {
+    height: 200px; /* Adjust height for smaller screens */
+  }
+}

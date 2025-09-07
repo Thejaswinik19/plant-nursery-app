@@ -1,0 +1,48 @@
+/* Styling for the custom navbar */
+.custom-navbar {
+  background: linear-gradient(to right, #4caf50, #388e3c, #2c6b2f) !important; /* Green gradient background */
+}
+
+/* Styling for the brand name */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 1.75rem !important; /* Adjust font size as needed */
+  font-weight: bold !important; /* Make the heading bold */
+  color: hsl(233, 90%, 4%) !important; /* Change text color to dark green */
+  transition: color 0.3s ease !important; /* Smooth transition for color changes */
+}
+
+.navbar-brand:hover {
+  color: #da8b0a !important; /* Lighter color for hover effect on brand */
+}
+
+/* Styling for the logo image */
+.navbar-logo {
+  height: 60px; /* Adjust height as needed */
+  margin-right: 20px; /* Space between logo and text */
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+/* Styling for the navigation links */
+.nav-link {
+  color: wheat !important; /* Change text color to wheat */
+  font-weight: 500 !important; /* Slightly bold for nav links */
+  font-size: 20px !important; /* Font size for nav links */
+}
+
+.nav-link:hover {
+  color: #3cb371 !important; /* Lighter green for hover effect on nav links */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem !important; /* Adjust font size for mobile */
+  }
+
+  .nav-link {
+    font-size: 1rem !important; /* Adjust font size for mobile */
+  }
+}

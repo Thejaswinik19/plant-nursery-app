@@ -1,0 +1,71 @@
+.footer {
+  background: linear-gradient(green,green,green); /* Darker shade of green for better contrast */
+  color: #f0f0f0; /* Light grey for text to stand out against dark background */
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer h5 {
+  color: #091113; /* Soft green color for headings */
+  margin-bottom: 20px;
+  font-size: 1.25rem; /* Slightly larger font for better readability */
+  font-weight: bold; /* Make headings bold */
+}
+
+.footer .social-links, 
+.footer .footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.footer .social-links .nav-link {
+  color: #182093 !important; /* Light grey for icons */
+  font-size: 1.75rem; /* Larger icons for better visibility */
+  text-decoration: none;
+}
+
+.footer .social-links .nav-link:hover {
+  color: #a1c4a0; /* Soft green for hover effect */
+}
+
+.footer .footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+.footer .footer-links .nav-link {
+  color: #182093 !important; /* Light grey for text */
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.footer .footer-links .nav-link:hover {
+  color: #a1c4a0; /* Soft green for hover effect */
+}
+
+.text-center p {
+  margin: 20px 0 0;
+  font-size: 0.9rem;
+  color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+  .footer .social-links, 
+  .footer .footer-links {
+    flex-direction: column;
+  }
+
+  .footer .social-links {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,34 @@
+/* src/components/PlantCard.css */
+
+.plant-card {
+    border: 1px solid #d1e7dd; /* Light green border */
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .plant-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .plant-card-img {
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+  }
+  
+  .plant-card .card-body {
+    background-color: #f9f9f9; /* Light background for the card body */
+  }
+  
+  .plant-card .card-title {
+    font-size: 1.25rem;
+    color: #2e8b57; /* Dark Sea Green */
+  }
+  
+  .plant-card .card-text {
+    font-size: 1rem;
+    color: #555; /* Darker text color for better readability */
+  }
+  

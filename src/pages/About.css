@@ -1,0 +1,58 @@
+/* General container styling */
+.about-page {
+  padding: 2rem;
+}
+
+/* Section styling */
+section {
+  margin-bottom: 2rem;
+}
+
+/* Header styling */
+h1, h2 {
+ 
+  margin-bottom: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-size: 2.5rem; /* Larger font size for the main title */
+  color: green !important;
+}
+
+h2 {
+  font-size: 1.5rem !important; /* Slightly smaller font size for section titles */
+  color: blue !important;
+}
+
+/* Image section styling */
+.image-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.image-section .image-container {
+  flex: 1 1 30%;
+  margin: 0.5rem;
+  text-align: center;
+}
+
+.image-section .image-container img {
+  width: 400px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+/* List styling */
+ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #34495e; /* Color for list items */
+}
+
+/* Add some padding to the bottom of the page */
+.about-page {
+  padding-bottom: 3rem;
+}

@@ -1,0 +1,191 @@
+/* General styling for the product details page */
+.product-details {
+  margin-top: 10px; /* Reduce top margin */
+}
+
+/* Styling for the receipt container */
+.receipt {
+  border: 1px solid #ddd;
+  border-radius: 6px; /* Slightly smaller border radius */
+  padding: 10px; /* Reduce padding */
+  background-color: rgb(159, 226, 159);
+  margin-top: 10px; /* Reduce top margin */
+  max-width: 480px; /* Adjust width to be narrower */
+  margin: auto; /* Center the receipt */
+  position: relative; /* Enable absolute positioning for the logo */
+}
+
+/* Header styling inside the receipt with logo */
+.receipt-header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px; /* Reduce bottom margin */
+}
+
+/* Styling for logo */
+.logo {
+  width: 80px; /* Set logo width */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 15px; /* Space between logo and text */
+  border-radius: 50px;
+}
+
+/* Styling for contact information */
+.contact-info {
+  flex: 1; /* Take up remaining space */
+  font-size: 12px; /* Smaller font size */
+  color: #333; /* Darker color for readability */
+}
+
+/* Styling for receipt information */
+.receipt-info {
+  font-size: 12px; /* Smaller font size */
+  color: #333; /* Darker color for readability */
+}
+
+/* Styling for the receipt content area */
+.receipt-content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling for the product details section */
+.product-details-section {
+  border: 1px solid #ddd;
+  border-radius: 6px; /* Slightly smaller border radius */
+  padding: 10px; /* Reduce padding */
+  background-color: #fff;
+  margin-bottom: 15px; /* Reduce bottom margin */
+  text-align: center; /* Center align content */
+}
+
+/* Styling for product image */
+.product-details-section img {
+  max-width: 100px; /* Further reduce image size */
+  height: auto;
+  border-radius: 6px; /* Slightly smaller border radius */
+  display: block;
+  margin: 0 auto; /* Center image */
+}
+
+/* Styling for the customer details section */
+.customer-details-section {
+  border: 1px solid #ddd;
+  border-radius: 6px; /* Slightly smaller border radius */
+  padding: 10px; /* Reduce padding */
+  background-color: #fff;
+  font-size: 12px;
+}
+
+/* Styling for the customer details heading */
+.customer-details-section h3 {
+  margin-bottom: 10px; /* Reduce bottom margin */
+  font-size: 14px; /* Smaller font size */
+  color: #333; /* Darker color for readability */
+}
+
+/* Styling for form controls within the customer details section */
+.customer-details-section .form-control {
+  margin-bottom: 8px; /* Reduce bottom margin */
+  font-size: 12px; /* Smaller font size */
+  color: #333; /* Text color */
+  background-color: #f8f9fa; /* Light background color */
+  border-color: #ddd; /* Border color */
+}
+
+/* Placeholder text styling */
+.customer-details-section .form-control::placeholder {
+  color: #999;
+}
+
+/* Styling for quantity field */
+.product-details-section .form-group {
+  margin-bottom: 10px; /* Space between fields */
+}
+
+.product-details-section .form-control {
+  font-size: 12px; /* Smaller font size */
+  max-width: 120px; /* Set maximum width */
+  margin: 0 auto; /* Center the input field */
+  color: #333; /* Text color */
+  background-color: #f8f9fa; /* Light background color */
+  border-color: #ddd; /* Border color */
+}
+
+/* Styling for the total price */
+.product-details-section p {
+  font-size: 14px; /* Adjust font size */
+  font-weight: bold; /* Emphasize total price */
+  color: #333; /* Darker color for readability */
+}
+
+/* Styling for bank details */
+.payment-info {
+  border: 1px solid #ddd;
+  border-radius: 6px; /* Slightly smaller border radius */
+  padding: 10px; /* Reduce padding */
+  background-color: #fff;
+  margin-top: 10px; /* Add top margin */
+  font-size: 12px;
+}
+
+/* Styling for the payment details heading */
+.payment-info h5 {
+  margin-bottom: 10px; /* Reduce bottom margin */
+  font-size: 14px; /* Smaller font size */
+  color: #333; /* Darker color for readability */
+}
+
+/* Styling for payment form controls */
+.payment-info .form-group {
+  margin-bottom: 8px; /* Reduce bottom margin */
+}
+
+.payment-info .form-control {
+  font-size: 12px; /* Smaller font size */
+  color: #333; /* Text color */
+  background-color: #f8f9fa; /* Light background color */
+  border-color: #ddd; /* Border color */
+}
+
+.payment-info .form-control::placeholder {
+  color: #999;
+}
+
+/* Styling for the submit button */
+button[type="submit"] {
+  margin-top: 10px; /* Reduce top margin */
+  padding: 6px 12px; /* Reduce padding */
+  background-color: #007bff; /* Bootstrap primary color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  font-size: 14px; /* Smaller font size */
+}
+
+/* Hover effect for the submit button */
+button[type="submit"]:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+/* src/components/ProductDetails.css */
+
+.product-details {
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.product-details .product-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.payment-info {
+  margin-top: 20px;
+}
+
+.screenshot-preview img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}

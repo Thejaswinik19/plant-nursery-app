@@ -1,0 +1,44 @@
+/* src/components/CarouselComponent.css */
+
+/* Add top, left, and right margins to the carousel */
+.carousel {
+  margin: 30px auto; /* Margin on top and bottom, auto on left and right for centering */
+  padding: 0 15px; /* Padding on left and right to create space inside the carousel */
+}
+
+/* Flexbox layout for grouping images horizontally */
+.carousel-group {
+  display: flex;
+  justify-content: space-between; /* Align images with space between them */
+  align-items: center; /* Center images vertically */
+}
+
+/* Ensure uniform image size */
+.carousel-image {
+  width: 32%; /* Adjust width to fit 3 images within the container */
+  height: 300px; /* Fixed height to ensure uniform image size */
+  object-fit: cover; /* Ensure images cover the container without distortion */
+  border-radius: 30px;
+}
+
+/* Optional: Adjust the caption style for better visibility */
+.carousel-caption {
+  position: absolute;
+  bottom: 20px; /* Adjust to position caption */
+  left: 15px; /* Adjust to position caption */
+  right: 15px; /* Adjust to position caption */
+  text-align: center;
+  color: #fff; /* Text color for visibility */
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+  padding: 10px; /* Padding for better spacing */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.carousel-caption h3 {
+  font-size: 1.5rem; /* Font size for the title */
+  margin-bottom: 0.5rem; /* Space between title and description */
+}
+
+.carousel-caption p {
+  font-size: 1rem; /* Font size for the description */
+}

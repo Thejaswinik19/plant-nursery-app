@@ -1,0 +1,38 @@
+/* src/pages/Products.css */
+
+/* Card styling */
+.card {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  width: 100%; /* Ensure the card takes full width of the column */
+  max-width: 250px; /* Maximum width to keep the card from becoming too large */
+  margin: auto; /* Center the card within the column */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 200px; /* Fixed height for the image */
+  width: 100%; /* Ensure the image takes full width of the card */
+  object-fit: cover; /* Maintain aspect ratio and cover the card */
+}
+
+.price {
+  font-size: 1.25rem;
+  color: #28a745; /* Bootstrap's success color */
+  font-weight: bold;
+}
+
+/* Ensure the cards stay in one line */
+.row {
+  display: flex;
+  flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+}
+
+.col-md-3 {
+  flex: 0 0 25%; /* 25% width for each card column */
+  max-width: 25%; /* Ensure that each column does not exceed 25% of the row width */
+  padding: 0 15px; /* Padding to prevent cards from touching edges */
+}

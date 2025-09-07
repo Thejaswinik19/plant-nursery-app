@@ -1,0 +1,33 @@
+/* Ensure all cards are in a single row and have appropriate styling */
+.categories-row {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping to the next row */
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+  gap: 50px; /* Adjust spacing between cards */
+}
+
+.custom-card {
+  background: linear-gradient(green, green, green) !important; /* Choose your desired background color */
+}
+
+.section-heading {
+  text-align: center;
+  margin: 20px 0; /* Add space above and below the heading */
+  font-size: 2.5rem !important; /* Adjust the font size as needed */
+  color: blue; /* Choose a color for the heading text */
+}
+
+.card {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: auto; /* Remove fixed height */
+  width: 100%; /* Make sure the image covers the full width of the card */
+  object-fit: contain; /* Ensure the entire image is visible */
+}
