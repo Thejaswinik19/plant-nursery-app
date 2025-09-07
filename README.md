@@ -8,7 +8,7 @@ Welcome to the Plant Nursery App! This is a frontend application designed to hel
 - Search for plants by name or category
 - View detailed information about each plant
 - Add plants to your cart and proceed to checkout
-- User authentication 
+
 
 ## Technologies Used
 
@@ -55,5 +55,5 @@ To get a local copy up and running, follow these simple steps:
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## Contact
+
 
